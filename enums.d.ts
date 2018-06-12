@@ -47,7 +47,7 @@
     NUM8 = 0x19,
     NUM9 = 0x1A,
     }
-declare namespace monkeybot {
+declare namespace monkeybot_遥控 {
 }
 
 // Auto-generated. Do not edit. Really.
