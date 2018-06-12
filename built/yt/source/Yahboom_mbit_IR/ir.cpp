@@ -53,7 +53,7 @@ enum class RemoteButton {
 
 //
 //
-namespace monkeybot_遥控 { 
+namespace monkeybotIR { 
   map<RemoteButton, vA> actions;
   map<RemoteButton, uint32_t> lastact;
   Timer tsb; 

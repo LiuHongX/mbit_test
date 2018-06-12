@@ -245,7 +245,7 @@ namespace BufferMethods {
     typedef vector<Action> vA;
     enum Pins : int;
     enum RemoteButton : int;
-namespace monkeybot_ {
+namespace monkeybotIR {
     void onPressEvent(RemoteButton btn, Action body);
     void init(Pins pin);
 }
@@ -433,7 +433,7 @@ PXT_SHIMS_BEGIN
 (uint32_t)(void*)::BufferMethods::shift,
 (uint32_t)(void*)::BufferMethods::rotate,
 (uint32_t)(void*)::BufferMethods::write,
-(uint32_t)(void*)::monkeybot_::onPressEvent,
-(uint32_t)(void*)::monkeybot_::init,
+(uint32_t)(void*)::monkeybotIR::onPressEvent,
+(uint32_t)(void*)::monkeybotIR::init,
 
 PXT_SHIMS_END
